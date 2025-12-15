@@ -1,0 +1,31 @@
+{
+  "scenarios": [
+    {
+      "name": "Conservative",
+      "theater_count": 3800,
+      "baseline_dollars": 102929511.93496919,
+      "final_dollars": 181669786.0690177
+    },
+    {
+      "name": "Base",
+      "theater_count": 4000,
+      "baseline_dollars": 121218151.39748113,
+      "final_dollars": 213949092.13186088
+    },
+    {
+      "name": "Optimistic",
+      "theater_count": 4100,
+      "baseline_dollars": 132268383.87720194,
+      "final_dollars": 233452666.30475822
+    }
+  ],
+  "uplift_ratio": 1.7649922034391516,
+  "prediction_date": "2025-12-15T23:45:38.281034",
+  "release_date": "2025-12-19",
+  "methodology": "EBM trained on 2000-2025 data (Avatar 2 excluded) + Avatar 2 uplift adjustment",
+  "base_case_prediction": 213949092.13186088,
+  "range": {
+    "min": 181669786.0690177,
+    "max": 233452666.30475822
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "uplift_ratio": 2.3533229379188687,
+  "avatar2_actual": 197681686.0,
+  "avatar2_predicted": 84001087.48985267,
+  "avatar2_error_pct": -57.506894447545,
+  "methodology": "Avatar 2 held out from training, predicted, uplift = actual/predicted"
+}
